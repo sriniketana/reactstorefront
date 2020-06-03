@@ -9,7 +9,7 @@ module.exports = {
     './src/client/index.js'
   ],
   output: {
-    path: path.join(__dirname, '/dist'),
+    path: path.join(__dirname, '..', '..', '/dist'),
     filename: 'main.js'
   },
   module: {
@@ -34,5 +34,9 @@ module.exports = {
     })
   ],
   mode: process.env.NODE_ENV || 'development',
-  devtool: 'inline-source-map'
+  devtool: 'inline-source-map',
+  target: 'node',
+  node: {
+    fs: 'empty'
+  }
 };
