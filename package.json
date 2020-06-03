@@ -76,6 +76,7 @@
   },
   "main" : "./src/server/index.js",
   "scripts": {
+    "start" : "./src/server/index.js",
     "build": "webpack --config ./src/server/webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
