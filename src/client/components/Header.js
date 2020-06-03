@@ -25,9 +25,10 @@ export class Header extends React.Component {
         >
           <h2
             style={{
-              fontFamily: 'Quicksand',
+              fontFamily: 'Roboto Slab',
               color: '#ffffff',
-              marginLeft: '1em'
+              marginLeft: '1em',
+              fontWeight: '400'
             }}
           >
             IBM Cloud Architecture
@@ -41,7 +42,7 @@ export class Header extends React.Component {
           >
             <h3
               style={{
-                fontFamily: 'Quicksand',
+                fontFamily: 'Roboto Slab',
                 color: '#ffffff',
                 marginLeft: '2em',
                 cursor: 'pointer'
@@ -51,7 +52,7 @@ export class Header extends React.Component {
             </h3>
             <h3
               style={{
-                fontFamily: 'Quicksand',
+                fontFamily: 'Roboto Slab',
                 color: '#ffffff',
                 marginLeft: '2em',
                 cursor: 'pointer'

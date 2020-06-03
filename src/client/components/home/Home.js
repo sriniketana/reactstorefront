@@ -19,7 +19,7 @@ export class Home extends React.Component {
               padding: '2em',
               border: '2px solid #4d70b2',
               borderRadius: '2px',
-              fontFamily: 'Quicksand',
+              fontFamily: 'Roboto Slab',
               fontWeight: '400',
               color: '#4d70b2',
               textTransform: 'uppercase',
@@ -37,7 +37,7 @@ export class Home extends React.Component {
               textAlign: 'center',
               alignSelf: 'center',
               width: 'fit-content',
-              fontFamily: 'Quicksand',
+              fontFamily: 'Roboto Slab',
               fontWeight: '400',
               color: '#4d70b2'
             }}
@@ -50,7 +50,7 @@ export class Home extends React.Component {
               textAlign: 'center',
               alignSelf: 'center',
               width: 'fit-content',
-              fontFamily: 'Quicksand',
+              fontFamily: 'Roboto Slab',
               fontWeight: '700',
               color: '#4d70b2'
             }}
@@ -63,7 +63,7 @@ export class Home extends React.Component {
               textAlign: 'center',
               alignSelf: 'center',
               width: 'fit-content',
-              fontFamily: 'Quicksand',
+              fontFamily: 'Roboto Slab',
               fontWeight: '400',
               color: '#ffffff',
               backgroundColor: '#4d70b2',

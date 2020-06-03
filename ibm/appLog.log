@@ -9770,3 +9770,421 @@ Entrypoint [1mmain[39m[22m = [1m[32mmain.js[39m[22m [1m[32mmain.3cdee52
     img: '01-typewriter.jpg',
     stock: 1000 } ]
 
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/chethankumar/projects/appstash/covgit/reactstorefront
+ Info | datasourceDB | init | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:42:13 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:42:39 GMT+0530 (India Standard Time) | 
+> reactstorefront@0.1.0 start /Users/chethankumar/projects/appstash/covgit/reactstorefront
+> node ./src/server/index.js
+
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:42:40 GMT+0530 (India Standard Time) | Listening on port 3000...
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:42:43 GMT+0530 (India Standard Time) | webpack built 4093155884f6948db2a2 in 2818ms
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:42:43 GMT+0530 (India Standard Time) | [34mℹ[39m [90m｢wdm｣[39m: Hash: [1m4093155884f6948db2a2[39m[22m
+Version: webpack [1m4.42.0[39m[22m
+Time: [1m2818[39m[22mms
+Built at: 06/03/2020 [1m9:42:43 AM[39m[22m
+     [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mindex.html[39m[22m  459 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+   [1m[32mmain.js[39m[22m   3.45 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mmain.js[39m[22m
+[0] [1mmulti webpack-hot-middleware/client react-hot-loader/patch ./src/client/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-hot-loader/dist/react-hot-loader.development.js[39m[22m] 97.1 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-hot-loader/patch.js[39m[22m] 229 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-hot-loader/root.js[39m[22m] 858 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.17 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/client.js] [1m(webpack)-hot-middleware/client.js[39m[22m 7.68 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/node_modules/strip-ansi/index.js] [1m(webpack)-hot-middleware/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.35 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/buildin/harmony-module.js] [1m(webpack)/buildin/harmony-module.js[39m[22m 573 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 497 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/client/App.js[39m[22m] 1.99 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/client/index.css[39m[22m] 1.07 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/client/index.js[39m[22m] 1.04 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 77 hidden modules
+Child [1mHtmlWebpackCompiler[39m[22m:
+                          [1mAsset[39m[22m      [1mSize[39m[22m               [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m__child-HtmlWebpackPlugin_0[39m[22m  4.71 KiB  [1mHtmlWebpackPlugin_0[39m[22m  [1m[32m[39m[22mHtmlWebpackPlugin_0
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [[1m./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html[39m[22m] 711 bytes {[1m[33mHtmlWebpackPlugin_0[39m[22m}[1m[32m [built][39m[22m
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:42:43 GMT+0530 (India Standard Time) | [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:42:52 GMT+0530 (India Standard Time) | http://web-bluecompute.apps.mfstorefront.os.fyre.ibm.com/catalog
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:43:15 GMT+0530 (India Standard Time) | http://web-bluecompute.apps.mfstorefront.os.fyre.ibm.com/catalog
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:43:44 GMT+0530 (India Standard Time) | http://web-bluecompute.apps.mfstorefront.os.fyre.ibm.com/catalog
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:43:48 GMT+0530 (India Standard Time) | [ { id: 13404,
+    name: 'Tape Controlled Card Punch',
+    description:
+     'IBM hired engineer-inventor Charles Doty in 1925, and he first worked as a secretary at the companyâ€™s main office at 50 Broad Street in Manhattan before transferring to the engineering laboratory at 225 Varick Street. Doty went on to write the specifications for a tape-to-card converter for engineers in IBMâ€™s development laboratory in Endicott, N.Y. The first such machine consisted of a keypunch to which relays had been added to convert the code of the paper tape to the code of the punched cards, along with an attached paper-tape reading device. The engineering model was delivered and placed into testing on May 12, 1941, just three months after getting the green light for development. During the summer of 1941, the United States Army Air Corps received the first 10 units of the machine seen here, which was then known as the IBM 40 Tape Controlled Card Punch. Following delivery to the Air Corps, the Armyâ€™s Quartermaster Department, Signal Corps and other military organizations use',
+    price: 1299,
+    imgAlt: 'Tape Controlled Card Punch',
+    img: 'tape-controlled-punch.jpg',
+    stock: 1000 },
+  { id: 13405,
+    name: 'Electric Card Collator',
+    description:
+     'The IBM 77 electric punched card collator performed many card filing and pulling operations. As a filing machine, the Type 77 fed and compared simultaneously two groups of punched cards: records already in file and records to be filed. These two groups were merged in correct numerical or alphabetical sequence. When operated for the purpose of pulling cards, the Type 77 made it possible for one group of cards to pull corresponding cards from another group. Introduced in 1937, the IBM 77 collator rented for 0 a month. It was capable of handling 240 cards a minute, and was 40.5 inches long and 51 inches high. IBM withdrew the Type 77 from marketing on November 27, 1957.',
+    price: 3899,
+    imgAlt: 'IBM 77 Electric Punched Card Collator',
+    img: 'electric-card-punch.jpg',
+    stock: 1000 },
+  { id: 13408,
+    name: 'Calculator',
+    description:
+     'The IBM 608 calculator (shown at left) was the first completely transistorized computer available for commercial installation. Announced in April 1955, the 608 began the transition of IBM\'s line of small and intermediate electronic calculators from vacuum tube to transistor operation. It contained more than 3,000 transistors -- tiny germanium devices no bigger than a paper clip -- and magnetic cores -- doughnut-shaped objects slightly larger than a pinhead, in the first known use of transistors and cores together in a computer. The magnetic cores could remember information indefinitely and recall it in a few millionths of a second, and made up the machine\'s internal storage or memory.<br>The 608\'s transistors made possible a 50 percent reduction in physical size and a 90 percent reduction in power requirements over comparable vacuum tube models. The machine could perform 4,500 additions a second, a computing speed 2.5 times faster than IBM\'s Type 607 calculator introduced only two year',
+    price: 5199,
+    imgAlt: '608 Calculator',
+    img: '608-calculator.jpg',
+    stock: 1000 },
+  { id: 13409,
+    name: 'Proof Machine',
+    description:
+     'Debuting in July 1949, the IBM 803 Proof Machine was used to sort, list, prove and endorse checks, sales tickets, vouchers and other business documents in a single operation. Containing 32 sorting receptacles, the 803 had a number of compartment adding tapes. A control tape recorded all transactions in the original sequence, with sub and final totals of distributions. The ten-key electrified adding machine keyboard simplified the 803\'s operation. The machine also had signal lights to indicate the near depletion of the tape supply and other operating conditions. The 803 Proof Machine was withdrawn in December 1981 after more 30 years in the product catalogue.',
+    price: 399,
+    imgAlt: '803 Proof Machine',
+    img: '803-proof.jpg',
+    stock: 1000 },
+  { id: 13411,
+    name: 'Model A Typewriter',
+    description:
+     'In 1948 IBM introduced the IBM Model A Standard Electric Typewriter. This machine gave typists a new feeling of comfort and control as the carriage return, back space, tabulator and shift were operated with a fingertip touch. The Model A\'s multiple-copy control ensured legible carbon copies and stencils.',
+    price: 1199,
+    imgAlt: 'Model A Standard Electric Typewriter',
+    img: 'a-typewriter.jpg',
+    stock: 1000 },
+  { id: 13401,
+    name: 'Dayton Meat Chopper',
+    description:
+     'Punched-card tabulating machines and time clocks were not the only products offered by the young IBM. Seen here in 1930, manufacturing employees of IBM\'s Dayton Scale Company are assembling Dayton Safety Electric Meat Choppers. These devices, which won the Gold Medal at the 1926 Sesquicentennial International Exposition in Philadelphia, were produced in both counter base and pedestal styles (5000 and 6000 series, respectively). They included one-quarter horsepower models, one-third horsepower machines (Styles 5113, 6113F and 6213F), one-half horsepower types (Styles 5117, 6117F and 6217F) and one horsepower choppers (Styles 5128, 6128F and 6228F). Prices in 1926 varied from admin80 to bluemix-sandbox-dal-9-portal.5.dblayer.com75. Three years after this photograph was taken, the Dayton Scale Company became an IBM division, and was sold to the Hobart Manufacturing Company in 1934.',
+    price: 4599,
+    imgAlt: 'Dayton Meat Chopper',
+    img: 'meat-chopper.jpg',
+    stock: 1000 },
+  { id: 13407,
+    name: 'Gang Summary Punch',
+    description:
+     'The IBM 523 gang summary punch made its debut on February 17, 1949. When attached to an IBM 400-series accounting machine, the 523 punched summary cards for various totals at the rate of 100 cards a minute. Gang punching and summary punching operations could be performed simultaneously. The last model of the 523 was withdrawn from marketing on December 1, 1975.',
+    price: 1899,
+    imgAlt: 'Summary Punch',
+    img: 'summary-punch.jpg',
+    stock: 1000 },
+  { id: 13402,
+    name: 'Hollerith Tabulator',
+    description:
+     'This equipment is representative of the tabulating system invented and built for the U.S. Census Bureau by Herman Hollerith (1860-1929). After observing a train conductor punching railroad tickets to identify passengers, Hollerith conceived and developed the idea of using punched holes to record facts about people. These machines were first used in compiling the 1890 Census. Hollerith\'s patents were later acquired by the Computing-Tabulating-Recording Co. (which was renamed IBM in 1924) and this work became the basis of the IBM Punched Card System. Hollerith\'s tabulator used simple clock-like counting devices. When an electrical circuit was closed (through a punched hole in a predetermined position on the card), each counter was actuated by an electromagnet. The unit\'s pointer (clock hand) moved one step each time the magnet was energized. The circuits to the electromagnets were closed by means of a hand-operated press type card reader. The operator placed each card in the reader, pull',
+    price: 10599,
+    imgAlt: 'Hollerith Tabulator',
+    img: 'hollerith-tabulator.jpg',
+    stock: 1000 },
+  { id: 13403,
+    name: 'Computing Scale',
+    description:
+     'In 1885 Julius Pitrat of Gallipolis, Ohio, patented the first computing scale. Six years later, Edward Canby and Orange Ozias of Dayton, Ohio, purchased Pitrat\'s patents and incorporated The Computing Scale Company as the world\'s first computing scale vendor. And four years after that, The Computing Scale Company introduced the first automatic computing scale, shown here. In 1911, the Computing Scale Company merged with the International Time Recording Company and Tabulating Machine Company to form the Computing-Tabulating-Recording Company, a business that was renamed IBM in 1924.',
+    price: 699,
+    imgAlt: 'Computing Scale',
+    img: 'computing-scale.jpg',
+    stock: 1000 },
+  { id: 13410,
+    name: 'Model 01 Typewriter',
+    description:
+     'I
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:43:48 GMT+0530 (India Standard Time) | n 1933 IBM acquired the tools, patents and production facilities of Electromatic Typewriters, Inc., of Rochester, N.Y. In the year following the acquisition, IBM invested more than admin million to redesign the Electromatic Typewriter, improve the company\'s research facilities and establish service centers. In 1935, the Model 01 IBM Electric Typewriter, seen here, was introduced. Wide customer acceptance soon made it the first successful electric typewriter in the United States.',
+    price: 899,
+    imgAlt: 'Model 01 Electric Typewriter',
+    img: '01-typewriter.jpg',
+    stock: 1000 } ]
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:44:01 GMT+0530 (India Standard Time) | http://web-bluecompute.apps.mfstorefront.os.fyre.ibm.com/catalog
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:44:04 GMT+0530 (India Standard Time) | [ { id: 13404,
+    name: 'Tape Controlled Card Punch',
+    description:
+     'IBM hired engineer-inventor Charles Doty in 1925, and he first worked as a secretary at the companyâ€™s main office at 50 Broad Street in Manhattan before transferring to the engineering laboratory at 225 Varick Street. Doty went on to write the specifications for a tape-to-card converter for engineers in IBMâ€™s development laboratory in Endicott, N.Y. The first such machine consisted of a keypunch to which relays had been added to convert the code of the paper tape to the code of the punched cards, along with an attached paper-tape reading device. The engineering model was delivered and placed into testing on May 12, 1941, just three months after getting the green light for development. During the summer of 1941, the United States Army Air Corps received the first 10 units of the machine seen here, which was then known as the IBM 40 Tape Controlled Card Punch. Following delivery to the Air Corps, the Armyâ€™s Quartermaster Department, Signal Corps and other military organizations use',
+    price: 1299,
+    imgAlt: 'Tape Controlled Card Punch',
+    img: 'tape-controlled-punch.jpg',
+    stock: 1000 },
+  { id: 13405,
+    name: 'Electric Card Collator',
+    description:
+     'The IBM 77 electric punched card collator performed many card filing and pulling operations. As a filing machine, the Type 77 fed and compared simultaneously two groups of punched cards: records already in file and records to be filed. These two groups were merged in correct numerical or alphabetical sequence. When operated for the purpose of pulling cards, the Type 77 made it possible for one group of cards to pull corresponding cards from another group. Introduced in 1937, the IBM 77 collator rented for 0 a month. It was capable of handling 240 cards a minute, and was 40.5 inches long and 51 inches high. IBM withdrew the Type 77 from marketing on November 27, 1957.',
+    price: 3899,
+    imgAlt: 'IBM 77 Electric Punched Card Collator',
+    img: 'electric-card-punch.jpg',
+    stock: 1000 },
+  { id: 13408,
+    name: 'Calculator',
+    description:
+     'The IBM 608 calculator (shown at left) was the first completely transistorized computer available for commercial installation. Announced in April 1955, the 608 began the transition of IBM\'s line of small and intermediate electronic calculators from vacuum tube to transistor operation. It contained more than 3,000 transistors -- tiny germanium devices no bigger than a paper clip -- and magnetic cores -- doughnut-shaped objects slightly larger than a pinhead, in the first known use of transistors and cores together in a computer. The magnetic cores could remember information indefinitely and recall it in a few millionths of a second, and made up the machine\'s internal storage or memory.<br>The 608\'s transistors made possible a 50 percent reduction in physical size and a 90 percent reduction in power requirements over comparable vacuum tube models. The machine could perform 4,500 additions a second, a computing speed 2.5 times faster than IBM\'s Type 607 calculator introduced only two year',
+    price: 5199,
+    imgAlt: '608 Calculator',
+    img: '608-calculator.jpg',
+    stock: 1000 },
+  { id: 13409,
+    name: 'Proof Machine',
+    description:
+     'Debuting in July 1949, the IBM 803 Proof Machine was used to sort, list, prove and endorse checks, sales tickets, vouchers and other business documents in a single operation. Containing 32 sorting receptacles, the 803 had a number of compartment adding tapes. A control tape recorded all transactions in the original sequence, with sub and final totals of distributions. The ten-key electrified adding machine keyboard simplified the 803\'s operation. The machine also had signal lights to indicate the near depletion of the tape supply and other operating conditions. The 803 Proof Machine was withdrawn in December 1981 after more 30 years in the product catalogue.',
+    price: 399,
+    imgAlt: '803 Proof Machine',
+    img: '803-proof.jpg',
+    stock: 1000 },
+  { id: 13411,
+    name: 'Model A Typewriter',
+    description:
+     'In 1948 IBM introduced the IBM Model A Standard Electric Typewriter. This machine gave typists a new feeling of comfort and control as the carriage return, back space, tabulator and shift were operated with a fingertip touch. The Model A\'s multiple-copy control ensured legible carbon copies and stencils.',
+    price: 1199,
+    imgAlt: 'Model A Standard Electric Typewriter',
+    img: 'a-typewriter.jpg',
+    stock: 1000 },
+  { id: 13401,
+    name: 'Dayton Meat Chopper',
+    description:
+     'Punched-card tabulating machines and time clocks were not the only products offered by the young IBM. Seen here in 1930, manufacturing employees of IBM\'s Dayton Scale Company are assembling Dayton Safety Electric Meat Choppers. These devices, which won the Gold Medal at the 1926 Sesquicentennial International Exposition in Philadelphia, were produced in both counter base and pedestal styles (5000 and 6000 series, respectively). They included one-quarter horsepower models, one-third horsepower machines (Styles 5113, 6113F and 6213F), one-half horsepower types (Styles 5117, 6117F and 6217F) and one horsepower choppers (Styles 5128, 6128F and 6228F). Prices in 1926 varied from admin80 to bluemix-sandbox-dal-9-portal.5.dblayer.com75. Three years after this photograph was taken, the Dayton Scale Company became an IBM division, and was sold to the Hobart Manufacturing Company in 1934.',
+    price: 4599,
+    imgAlt: 'Dayton Meat Chopper',
+    img: 'meat-chopper.jpg',
+    stock: 1000 },
+  { id: 13407,
+    name: 'Gang Summary Punch',
+    description:
+     'The IBM 523 gang summary punch made its debut on February 17, 1949. When attached to an IBM 400-series accounting machine, the 523 punched summary cards for various totals at the rate of 100 cards a minute. Gang punching and summary punching operations could be performed simultaneously. The last model of the 523 was withdrawn from marketing on December 1, 1975.',
+    price: 1899,
+    imgAlt: 'Summary Punch',
+    img: 'summary-punch.jpg',
+    stock: 1000 },
+  { id: 13402,
+    name: 'Hollerith Tabulator',
+    description:
+     'This equipment is representative of the tabulating system invented and built for the U.S. Census Bureau by Herman Hollerith (1860-1929). After observing a train conductor punching railroad tickets to identify passengers, Hollerith conceived and developed the idea of using punched holes to record facts about people. These machines were first used in compiling the 1890 Census. Hollerith\'s patents were later acquired by the Computing-Tabulating-Recording Co. (which was renamed IBM in 1924) and this work became the basis of the IBM Punched Card System. Hollerith\'s tabulator used simple clock-like counting devices. When an electrical circuit was closed (through a punched hole in a predetermined position on the card), each counter was actuated by an electromagnet. The unit\'s pointer (clock hand) moved one step each time the magnet was energized. The circuits to the electromagnets were closed by means of a hand-operated press type card reader. The operator placed each card in the reader, pull',
+    price: 10599,
+    imgAlt: 'Hollerith Tabulator',
+    img: 'hollerith-tabulator.jpg',
+    stock: 1000 },
+  { id: 13403,
+    name: 'Computing Scale',
+    description:
+     'In 1885 Julius Pitrat of Gallipolis, Ohio, patented the first computing scale. Six years later, Edward Canby and Orange Ozias of Dayton, Ohio, purchased Pitrat\'s patents and incorporated The Computing Scale Company as the world\'s first computing scale vendor. And four years after that, The Computing Scale Company introduced the first automatic computing scale, shown here. In 1911, the Computing Scale Company merged with the International Time Recording Company and Tabulating Machine Company to form the Computing-Tabulating-Recording Company, a business that was renamed IBM in 1924.',
+    price: 699,
+    imgAlt: 'Computing Scale',
+    img: 'computing-scale.jpg',
+    stock: 1000 },
+  { id: 13410,
+    name: 'Model 01 Typewriter',
+    description:
+     'I
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 09:44:04 GMT+0530 (India Standard Time) | n 1933 IBM acquired the tools, patents and production facilities of Electromatic Typewriters, Inc., of Rochester, N.Y. In the year following the acquisition, IBM invested more than admin million to redesign the Electromatic Typewriter, improve the company\'s research facilities and establish service centers. In 1935, the Model 01 IBM Electric Typewriter, seen here, was introduced. Wide customer acceptance soon made it the first successful electric typewriter in the United States.',
+    price: 899,
+    imgAlt: 'Model 01 Electric Typewriter',
+    img: '01-typewriter.jpg',
+    stock: 1000 } ]
+
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/chethankumar/projects/appstash/covgit/reactstorefront
+ Info | datasourceDB | init | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:45:51 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/chethankumar/projects/appstash/covgit/reactstorefront
+ Info | datasourceDB | init | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 11:28:39 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/chethankumar/projects/appstash/covgit/reactstorefront
+ Info | datasourceDB | init | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 11:31:51 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | settingsDB | getByType | Wed Jun 03 2020, 11:32:42 GMT+0530 (India Standard Time) | getByType returned null
+ Info | settingsDB | getByType | Wed Jun 03 2020, 11:32:42 GMT+0530 (India Standard Time) | getByType returned null
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/chethankumar/projects/appstash/covgit/reactstorefront
+ Info | datasourceDB | init | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 11:43:08 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 11:45:47 GMT+0530 (India Standard Time) | saved file /Users/chethankumar/projects/appstash/covgit/reactstorefront/src/client/index.html
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 11:46:20 GMT+0530 (India Standard Time) | saved file /Users/chethankumar/projects/appstash/covgit/reactstorefront/src/client/components/Header.js
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 11:46:46 GMT+0530 (India Standard Time) | saved file /Users/chethankumar/projects/appstash/covgit/reactstorefront/src/client/components/catalog/Catalog.js
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 11:47:09 GMT+0530 (India Standard Time) | saved file /Users/chethankumar/projects/appstash/covgit/reactstorefront/src/client/components/home/Home.js
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:13 GMT+0530 (India Standard Time) | 
+> reactstorefront@0.1.0 start /Users/chethankumar/projects/appstash/covgit/reactstorefront
+> node ./src/server/index.js
+
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:14 GMT+0530 (India Standard Time) | Listening on port 3000...
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:17 GMT+0530 (India Standard Time) | webpack built bf0b017051100a0fb953 in 2317ms
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:17 GMT+0530 (India Standard Time) | [34mℹ[39m [90m｢wdm｣[39m: Hash: [1mbf0b017051100a0fb953[39m[22m
+Version: webpack [1m4.42.0[39m[22m
+Time: [1m2317[39m[22mms
+Built at: 06/03/2020 [1m11:47:17 AM[39m[22m
+     [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mindex.html[39m[22m  461 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+   [1m[32mmain.js[39m[22m   3.45 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mmain.js[39m[22m
+[0] [1mmulti webpack-hot-middleware/client react-hot-loader/patch ./src/client/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-hot-loader/dist/react-hot-loader.development.js[39m[22m] 97.1 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-hot-loader/patch.js[39m[22m] 229 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-hot-loader/root.js[39m[22m] 858 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.17 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/client.js] [1m(webpack)-hot-middleware/client.js[39m[22m 7.68 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/node_modules/strip-ansi/index.js] [1m(webpack)-hot-middleware/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.35 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/buildin/harmony-module.js] [1m(webpack)/buildin/harmony-module.js[39m[22m 573 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 497 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/client/App.js[39m[22m] 1.99 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/client/index.css[39m[22m] 1.07 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/client/index.js[39m[22m] 1.04 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 77 hidden modules
+Child [1mHtmlWebpackCompiler[39m[22m:
+                          [1mAsset[39m[22m      [1mSize[39m[22m               [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m__child-HtmlWebpackPlugin_0[39m[22m  4.71 KiB  [1mHtmlWebpackPlugin_0[39m[22m  [1m[32m[39m[22mHtmlWebpackPlugin_0
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [[1m./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html[39m[22m] 713 bytes {[1m[33mHtmlWebpackPlugin_0[39m[22m}[1m[32m [built][39m[22m
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:17 GMT+0530 (India Standard Time) | [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:39 GMT+0530 (India Standard Time) | http://web-bluecompute.apps.mfstorefront.os.fyre.ibm.com/catalog
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:42 GMT+0530 (India Standard Time) | [ { id: 13404,
+    name: 'Tape Controlled Card Punch',
+    description:
+     'IBM hired engineer-inventor Charles Doty in 1925, and he first worked as a secretary at the companyâ€™s main office at 50 Broad Street in Manhattan before transferring to the engineering laboratory at 225 Varick Street. Doty went on to write the specifications for a tape-to-card converter for engineers in IBMâ€™s development laboratory in Endicott, N.Y. The first such machine consisted of a keypunch to which relays had been added to convert the code of the paper tape to the code of the punched cards, along with an attached paper-tape reading device. The engineering model was delivered and placed into testing on May 12, 1941, just three months after getting the green light for development. During the summer of 1941, the United States Army Air Corps received the first 10 units of the machine seen here, which was then known as the IBM 40 Tape Controlled Card Punch. Following delivery to the Air Corps, the Armyâ€™s Quartermaster Department, Signal Corps and other military organizations use',
+    price: 1299,
+    imgAlt: 'Tape Controlled Card Punch',
+    img: 'tape-controlled-punch.jpg',
+    stock: 1000 },
+  { id: 13405,
+    name: 'Electric Card Collator',
+    description:
+     'The IBM 77 electric punched card collator performed many card filing and pulling operations. As a filing machine, the Type 77 fed and compared simultaneously two groups of punched cards: records already in file and records to be filed. These two groups were merged in correct numerical or alphabetical sequence. When operated for the purpose of pulling cards, the Type 77 made it possible for one group of cards to pull corresponding cards from another group. Introduced in 1937, the IBM 77 collator rented for 0 a month. It was capable of handling 240 cards a minute, and was 40.5 inches long and 51 inches high. IBM withdrew the Type 77 from marketing on November 27, 1957.',
+    price: 3899,
+    imgAlt: 'IBM 77 Electric Punched Card Collator',
+    img: 'electric-card-punch.jpg',
+    stock: 1000 },
+  { id: 13408,
+    name: 'Calculator',
+    description:
+     'The IBM 608 calculator (shown at left) was the first completely transistorized computer available for commercial installation. Announced in April 1955, the 608 began the transition of IBM\'s line of small and intermediate electronic calculators from vacuum tube to transistor operation. It contained more than 3,000 transistors -- tiny germanium devices no bigger than a paper clip -- and magnetic cores -- doughnut-shaped objects slightly larger than a pinhead, in the first known use of transistors and cores together in a computer. The magnetic cores could remember information indefinitely and recall it in a few millionths of a second, and made up the machine\'s internal storage or memory.<br>The 608\'s transistors made possible a 50 percent reduction in physical size and a 90 percent reduction in power requirements over comparable vacuum tube models. The machine could perform 4,500 additions a second, a computing speed 2.5 times faster than IBM\'s Type 607 calculator introduced only two year',
+    price: 5199,
+    imgAlt: '608 Calculator',
+    img: '608-calculator.jpg',
+    stock: 1000 },
+  { id: 13409,
+    name: 'Proof Machine',
+    description:
+     'Debuting in July 1949, the IBM 803 Proof Machine was used to sort, list, prove and endorse checks, sales tickets, vouchers and other business documents in a single operation. Containing 32 sorting receptacles, the 803 had a number of compartment adding tapes. A control tape recorded all transactions in the original sequence, with sub and final totals of distributions. The ten-key electrified adding machine keyboard simplified the 803\'s operation. The machine also had signal lights to indicate the near depletion of the tape supply and other operating conditions. The 803 Proof Machine was withdrawn in December 1981 after more 30 years in the product catalogue.',
+    price: 399,
+    imgAlt: '803 Proof Machine',
+    img: '803-proof.jpg',
+    stock: 1000 },
+  { id: 13411,
+    name: 'Model A Typewriter',
+    description:
+     'In 1948 IBM introduced the IBM Model A Standard Electric Typewriter. This machine gave typists a new feeling of comfort and control as the carriage return, back space, tabulator and shift were operated with a fingertip touch. The Model A\'s multiple-copy control ensured legible carbon copies and stencils.',
+    price: 1199,
+    imgAlt: 'Model A Standard Electric Typewriter',
+    img: 'a-typewriter.jpg',
+    stock: 1000 },
+  { id: 13401,
+    name: 'Dayton Meat Chopper',
+    description:
+     'Punched-card tabulating machines and time clocks were not the only products offered by the young IBM. Seen here in 1930, manufacturing employees of IBM\'s Dayton Scale Company are assembling Dayton Safety Electric Meat Choppers. These devices, which won the Gold Medal at the 1926 Sesquicentennial International Exposition in Philadelphia, were produced in both counter base and pedestal styles (5000 and 6000 series, respectively). They included one-quarter horsepower models, one-third horsepower machines (Styles 5113, 6113F and 6213F), one-half horsepower types (Styles 5117, 6117F and 6217F) and one horsepower choppers (Styles 5128, 6128F and 6228F). Prices in 1926 varied from admin80 to bluemix-sandbox-dal-9-portal.5.dblayer.com75. Three years after this photograph was taken, the Dayton Scale Company became an IBM division, and was sold to the Hobart Manufacturing Company in 1934.',
+    price: 4599,
+    imgAlt: 'Dayton Meat Chopper',
+    img: 'meat-chopper.jpg',
+    stock: 1000 },
+  { id: 13407,
+    name: 'Gang Summary Punch',
+    description:
+     'The IBM 523 gang summary punch made its debut on February 17, 1949. When attached to an IBM 400-series accounting machine, the 523 punched summary cards for various totals at the rate of 100 cards a minute. Gang punching and summary punching operations could be performed simultaneously. The last model of the 523 was withdrawn from marketing on December 1, 1975.',
+    price: 1899,
+    imgAlt: 'Summary Punch',
+    img: 'summary-punch.jpg',
+    stock: 1000 },
+  { id: 13402,
+    name: 'Hollerith Tabulator',
+    description:
+     'This equipment is representative of the tabulating system invented and built for the U.S. Census Bureau by Herman Hollerith (1860-1929). After observing a train conductor punching railroad tickets to identify passengers, Hollerith conceived and developed the idea of using punched holes to record facts about people. These machines were first used in compiling the 1890 Census. Hollerith\'s patents were later acquired by the Computing-Tabulating-Recording Co. (which was renamed IBM in 1924) and this work became the basis of the IBM Punched Card System. Hollerith\'s tabulator used simple clock-like counting devices. When an electrical circuit was closed (through a punched hole in a predetermined position on the card), each counter was actuated by an electromagnet. The unit\'s pointer (clock hand) moved one step each time the magnet was energized. The circuits to the electromagnets were closed by means of a hand-operated press type card reader. The operator placed each card in the reader, pull',
+    price: 10599,
+    imgAlt: 'Hollerith Tabulator',
+    img: 'hollerith-tabulator.jpg',
+    stock: 1000 },
+  { id: 13403,
+    name: 'Computing Scale',
+    description:
+     'In 1885 Julius Pitrat of Gallipolis, Ohio, patented the first computing scale. Six years later, Edward Canby and Orange Ozias of Dayton, Ohio, purchased Pitrat\'s patents and incorporated The Computing Scale Company as the world\'s first computing scale vendor. And four years after that, The Computing Scale Company introduced the first automatic computing scale, shown here. In 1911, the Computing Scale Company merged with the International Time Recording Company and Tabulating Machine Company to form the Computing-Tabulating-Recording Company, a business that was renamed IBM in 1924.',
+    price: 699,
+    imgAlt: 'Computing Scale',
+    img: 'computing-scale.jpg',
+    stock: 1000 },
+  { id: 13410,
+    name: 'Model 01 Typewriter',
+    description:
+     'I
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:47:42 GMT+0530 (India Standard Time) | n 1933 IBM acquired the tools, patents and production facilities of Electromatic Typewriters, Inc., of Rochester, N.Y. In the year following the acquisition, IBM invested more than admin million to redesign the Electromatic Typewriter, improve the company\'s research facilities and establish service centers. In 1935, the Model 01 IBM Electric Typewriter, seen here, was introduced. Wide customer acceptance soon made it the first successful electric typewriter in the United States.',
+    price: 899,
+    imgAlt: 'Model 01 Electric Typewriter',
+    img: '01-typewriter.jpg',
+    stock: 1000 } ]
+
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 11:48:34 GMT+0530 (India Standard Time) | saved file /Users/chethankumar/projects/appstash/covgit/reactstorefront/src/client/components/Header.js
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:48:34 GMT+0530 (India Standard Time) | [34mℹ[39m [90m｢wdm｣[39m: Compiling...
+webpack building...
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:48:35 GMT+0530 (India Standard Time) | webpack built 224c2748068322d477c1 in 361ms
+
+ Info | IonicTopBar | runApp | Wed Jun 03 2020, 11:48:35 GMT+0530 (India Standard Time) | [34mℹ[39m [90m｢wdm｣[39m: Hash: [1m224c2748068322d477c1[39m[22m
+Version: webpack [1m4.42.0[39m[22m
+Time: [1m361[39m[22mms
+Built at: 06/03/2020 [1m11:48:35 AM[39m[22m
+                                  [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32mbf0b017051100a0fb953.hot-update.json[39m[22m   46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+                             [1m[32mindex.html[39m[22m  524 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                    
+[1m[32mmain.bf0b017051100a0fb953.hot-update.js[39m[22m   8.25 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                [1m[32mmain.js[39m[22m   3.45 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+Entrypoint [1mmain[39m[22m = [1m[32mmain.js[39m[22m [1m[32mmain.bf0b017051100a0fb953.hot-update.js[39m[22m
+[0] [1mmulti webpack-hot-middleware/client react-hot-loader/patch ./src/client/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-hot-loader/dist/react-hot-loader.development.js[39m[22m] 97.1 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-hot-loader/patch.js[39m[22m] 229 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-hot-loader/root.js[39m[22m] 858 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.17 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js] [1m(webpack)-hot-middleware/client.js[39m[22m 7.68 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-hot-middleware/node_modules/strip-ansi/index.js] [1m(webpack)-hot-middleware/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.35 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack/buildin/harmony-module.js] [1m(webpack)/buildin/harmony-module.js[39m[22m 573 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 497 bytes {[1m[33mmain[39m[22m}
+[[1m./src/client/App.js[39m[22m] 1.99 KiB {[1m[33mmain[39m[22m}
+[[1m./src/client/index.css[39m[22m] 1.07 KiB {[1m[33mmain[39m[22m}
+[[1m./src/client/index.js[39m[22m] 1.04 KiB {[1m[33mmain[39m[22m}
+    + 77 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+

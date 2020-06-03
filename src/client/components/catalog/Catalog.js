@@ -55,7 +55,7 @@ export class Catalog extends React.Component {
           ></img>
           <h2
             style={{
-              fontFamily: 'Quicksand',
+              fontFamily: 'Roboto Slab',
               fontSize: '1rem',
               fontWeight: 700,
               padding: '0.4em'
