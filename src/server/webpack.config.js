@@ -34,9 +34,5 @@ module.exports = {
     })
   ],
   mode: process.env.NODE_ENV || 'development',
-  devtool: 'inline-source-map',
-  target: 'node',
-  node: {
-    fs: 'empty'
-  }
+  devtool: 'inline-source-map'
 };
